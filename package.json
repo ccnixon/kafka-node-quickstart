@@ -2,7 +2,7 @@
   "name": "kafka-sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^13.4.0"
+    "hapi": "^13.4.0",
+    "kafka-node": "^1.0.1",
+    "sync-request": "^3.0.1"
   }
 }

@@ -1,6 +1,6 @@
 'use strict';
 
-const request = require('sync-request');
+// const request = require('sync-request');
 const kafka = require('kafka-node');
 
 // message = request('GET', 'http://spec.segment.com/generate/identify?pretty=true')
